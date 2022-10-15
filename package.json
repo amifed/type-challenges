@@ -11,7 +11,8 @@
     "build": "esno ./scripts/build.ts",
     "lint": "eslint .",
     "translate": "esno ./scripts/translate-cli.ts",
-    "utils:release": "pnpm -C utils release"
+    "utils:release": "pnpm -C utils release",
+    "e": "esno ./scripts/exercise.ts"
   },
   "dependencies": {
     "esno": "^0.16.3",
